@@ -7,14 +7,13 @@ Welcome to a starter project for the Dawson Coffee 'n Code club
  ### Install python, git, and virtualenv
 
   - Our programming language:
-      - https://www.python.org/downloads/
-      - ships with our package manager/installer (no need to douwload)
-        https://pypi.org/project/pip/
+      - [Python 3.6](https://www.python.org/downloads/)
+      - ships with our package manager/installer (no need to download)
+        [pip](https://pypi.org/project/pip/)
 
-  - Our Version Control Tool
-      https://git-scm.com/
+  - Our Version Control Tool: [Git](https://git-scm.com/)
 
-  - Our tool for isolated environments
+  - Our tool for isolated environments: [Virtualenv](https://docs.python-guide.org/dev/virtualenvs/)
     `$pip install virtualenv`
 
   ### Setup an isolated virtualenv
@@ -33,3 +32,16 @@ Welcome to a starter project for the Dawson Coffee 'n Code club
 
   #### Windows
    - http://timmyreilly.azurewebsites.net/python-pip-virtualenv-installation-on-windows/
+
+## Jupyter Notebooks
+
+[Jupyter](https://jupyter.org/) is a python package that enables reproducible research via their *notebooks*.
+
+  ```
+  $ jupyter notebook notebooks/Scikit-Learn Demo.ipynb
+  ```
+
+This will open a notebook file in the browser, with some code chunks from the Machine Learning library we will be working with, [SciKit Learn](https://scikit-learn.org/stable/index.html)
+
+Simply hit `Shift + Enter` on each code cell, and the code will be executed.
+  

@@ -4,7 +4,7 @@ Welcome to a starter project for the Dawson Coffee 'n Code club
 
 ## Setup
 
- 0. Install python, git, and virtualenv
+ ### Install python, git, and virtualenv
 
   - Our programming language:
       - https://www.python.org/downloads/
@@ -17,20 +17,19 @@ Welcome to a starter project for the Dawson Coffee 'n Code club
   - Our tool for isolated environments
     `$pip install virtualenv`
 
- 1. Setup an isolated virtualenv
+  ### Setup an isolated virtualenv
 
-  ### Mac/Linux
+  #### Mac/Linux
 
  ```
  $ mkdir coffee_n_code_project
  $ cd coffee_n_code_project
  $ virtualenv -p /usr/bin/python3.6 venv_cnc
  $ source venv_cnc/bin/activate
- (venv_cnc)$ git clone
+ (venv_cnc)$ git clone https://github.com/sameerbhatnagar/dawson-coffee-n-code.git
  (venv_cnc)$ cd dawson-coffee_n_code
  (venv_cnc)$ pip install -r requirements.txt
  ```
 
-  ### Windows
+  #### Windows
    - http://timmyreilly.azurewebsites.net/python-pip-virtualenv-installation-on-windows/
-   -
